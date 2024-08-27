@@ -1,0 +1,100 @@
+
+body {
+    height: 90vh;
+    box-sizing: border-box;
+    background: #a7dceb;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #3b72c5;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #0d4f8d}
+     .text-area:focus{
+        outline: none;
+     }
+
+.mensagem{
+    background: rgb(255, 255, 255);
+    background-Image: url(/imagens/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #2a71c9;
+    margin-left: 98px;
+    margin-top: 100px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensagem:focus{
+    outline:none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background-color: #0277a5;
+    border: 1px solid #000000;
+    border-radius: 24px ;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar{
+    background-color: #0277a5;
+    border: 1 px solid #000000;
+    border-radius: 24px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 30px;
+    height: 65px;
+    width: 328px;
+}
+
+.btn-copiar{
+    background-color: #0277a5;
+    border: 1px solid #000000;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 350px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao{
+    color: #ffffff;
+    font-size: 18px;
+}
+Feito por Julio Scortegagna Henriques
